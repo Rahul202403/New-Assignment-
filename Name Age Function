@@ -1,0 +1,7 @@
+def details(n,a):
+    print(f"{n} {a}")
+
+
+name=input()
+age=int(input())
+details(name,age)
