@@ -1,0 +1,7 @@
+salary=int(input())
+ser_years=int(input())
+bonus=int(salary*5/100)
+if ser_years>5:
+   print(f"Bonus is {bonus}")
+else:
+   print("No Bonus")
